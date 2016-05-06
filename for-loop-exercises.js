@@ -105,8 +105,8 @@ function range(positive, negative){
     rangeAdv(2, 0, 5) -> run() should not be called
     rangeAdv(0, 2, 5) -> run() is called once
 */
-function rangeAdv(me, myself, I){
-  for (var i = me; i<I ; i++){
+function rangeAdv(short, tall, medium){
+  for (var i = short; i< tall ; i +=medium){
     run()
   }
 }
