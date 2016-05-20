@@ -75,7 +75,7 @@ function lastItem(last){
     arrayEdge(["hello", "hola", "bonjour", "ni hao"]) -> ["hello", "ni hao"]
 */
 function arrayEdge(edge){
-  return edge [0], edge [edge.length-1];
+  return edge [0], edge[edge.length()-1];
 }
 
 /*
@@ -87,7 +87,9 @@ function arrayEdge(edge){
     processArray([1, 2, 3]) -> process(1), process(2) and process(3) are called
     processArray(["hello", "hola", "bonjour", "ni hao"]) -> process("hello"), process("hola"), process("bonjour") and process("ni hao") are called
 */
-
+function processArray(array){
+  
+}
 
 /*
   Create a function named 'filterArray' with two parameters
